@@ -1,0 +1,122 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="UserMasterPage.master.cs" Inherits="MainMasterPage" %>
+
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title> FARMING WEB SERVICE</title>
+    
+      
+    <link href="StyleSheet.css" type="text/css" rel="Stylesheet" />
+   <link href="styles.css" type="text/css" rel="Stylesheet" />
+
+    <style type="text/css">
+
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            width: 126px;
+        }
+        .auto-style3 {
+            width: 18px;
+        }
+        .style1
+        {
+            background-color: #FFFFFF;
+        }
+        </style>
+    </head>
+<body>
+    <form id="form1" runat="server">
+     
+    <div  id="wrapper">
+        <div id="banner" align="center">
+         <h1 class="style1">Cost Preference Product Service</h1>
+            <p>
+             
+                <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+                </asp:ToolkitScriptManager>
+            </p>
+            <p>
+             
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              
+                &nbsp;</p></div>
+  
+
+
+<div id='cssmenu'>
+<ul>
+   <li class='active'><a href="Home.aspx"><span>Home</span></a></li>
+
+ <%--<li class='has-sub'><a href='#'><span>Fruit</span></a>
+        <ul>
+            <li class='has-sub'><a href="Vegetables.aspx"><span>Vegetables</span></a></li>
+             <li class='has-sub'><a href="AddClothType.aspx"><span>Meet</span></a></li>
+            <li class='has-sub'><a href="AddStock.aspx"><span>Bakery</span></a></li>
+           
+            
+        </ul>
+   </li>--%>
+     
+       <li class='has-sub'><a href='Product.aspx'><span>Products</span></a>
+     
+     </li>
+      
+  
+     <li class='has-sub'><a href='Mexican .aspx'><span>ALL</span></a>
+     
+    
+     
+    </li> <li class='has-sub'><a href='viewtip.aspx'><span>View Tips</span></a>
+     
+    
+     
+   
+      <li class='has-sub'><a href='Feedback.aspx'><span>Feedback</span></a>
+     
+     </li>
+   
+  
+     
+    <%-- <li class='has-sub'><a href='ChangePassword.aspx'><span>ChangePassword</span></a></li>--%>
+     <li class='has-sub'><a href='../Login.aspx'><span>Logout</span></a></li>
+     
+     
+            
+
+  
+  
+ 
+
+
+</ul>
+
+    <asp:Image ID="Image1" runat="server" />
+
+</div>
+
+<div>
+
+    <div id="content_area">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <p>
+            </p>
+        </asp:ContentPlaceHolder>
+    </div>
+    <div id="sidebar">
+        &nbsp;
+    </div>
+    </div>
+   <div id="footer">
+   <p style="height: 30px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+   </div>
+
+   </div>
+
+    </form>  
+</body>
+</html>
